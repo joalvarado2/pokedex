@@ -17,6 +17,10 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+5. Recosntruir la base de datos con la data de prueba 'hacer un get a la url'
+```
+http://localhost:3000/api/v2/seed
+```
 
 ## Stack usado
 * MongoDB
