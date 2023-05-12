@@ -17,7 +17,14 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
-5. Recosntruir la base de datos con la data de prueba 'hacer un get a la url'
+5. Clonar el archivo __.env.template__ y renombrar la copia a ```
+.env```
+6. Llenar las variables de entorno definidas en el ```.env```
+7. Ejecutar la aplicacion en dev:
+```
+npm run start:dev
+```
+8. Recosntruir la base de datos con la data de prueba 'hacer un get a la url'
 ```
 http://localhost:3000/api/v2/seed
 ```
